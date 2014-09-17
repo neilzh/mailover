@@ -1,0 +1,42 @@
+{
+  "name": "mailover",
+  "version": "1.0.0",
+  "description": "Simple handy apis for sending mail.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Janus-Z/mailover.git"
+  },
+  "keywords": [
+    "mail",
+    "email",
+    "e-mail",
+    "sendemail",
+    "mailto",
+    "mailvia",
+    "mailover"
+  ],
+  "author": "Neil Zheng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Janus-Z/mailover/issues"
+  },
+  "homepage": "https://github.com/Janus-Z/mailover",
+  "main": "index.js",
+  "devDependencies": {
+    "jshint": "*",
+    "mocha": "*",
+    "should": "*",
+    "istanbul": "*"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "dependencies": {
+    "debug": "^2.0.0",
+    "nodemailer": "^1.3.0",
+    "nodemailer-markdown": "^1.0.0"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "expr": true,
+  "eqeqeq": true,
+  "eqnull": true,
+  "indent": 2,
+  "latedef": "nofunc",
+  "newcap": true,
+  "quotmark": true,
+  "trailing": true,
+  "undef": true,
+  "unused": true,
+  "lastsemic": true,
+  "boss": true,
+  "funcscope": true,
+  "loopfunc": true,
+  "smarttabs": true,
+  "sub": true,
+  "node": true,
+  "esnext": true,
+  "globalstrict": true,
+  "evil": true,
+  "curly": true,
+  "predef": [
+    "describe",
+    "it",
+    "beforeEach",
+    "afterEach"
+  ]
+}
